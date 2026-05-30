@@ -1,0 +1,12 @@
+{
+  "brand": "Chaabane Bikes",
+  "nav": {
+    "home": "Home"
+  },
+  "home": {
+    "title": "Find your next ride",
+    "description": "Modern bikes, parts, and service.",
+    "cta": "Browse bikes"
+  }
+}
+

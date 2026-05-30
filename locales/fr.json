@@ -1,0 +1,12 @@
+{
+  "brand": "Chaabane Bikes",
+  "nav": {
+    "home": "Accueil"
+  },
+  "home": {
+    "title": "Trouvez votre prochain velo",
+    "description": "Velos modernes, pieces et service.",
+    "cta": "Voir les velos"
+  }
+}
+

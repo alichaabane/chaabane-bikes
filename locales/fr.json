@@ -1,12 +1,163 @@
 {
-  "brand": "Chaabane Bikes",
-  "nav": {
-    "home": "Accueil"
+  "brand": "Ben Chaaben BIKES",
+  "actions": {
+    "discover": "Decouvrir",
+    "whatsapp": "WhatsApp"
   },
-  "home": {
-    "title": "Trouvez votre prochain velo",
-    "description": "Velos modernes, pieces et service.",
-    "cta": "Voir les velos"
+  "nav": {
+    "home": "Accueil",
+    "bikes": "Velos",
+    "categories": "Categories",
+    "about": "A propos",
+    "contact": "Contact"
+  },
+  "seo": {
+    "title": "Ben Chaaben BIKES | Velos, VTT et velos electriques a Metlaoui",
+    "description": "Decouvrez Ben Chaaben BIKES a Metlaoui, Tunisie : selection de VTT, velos electriques, tout suspendu et accessoires. Contactez-nous sur WhatsApp pour plus de details.",
+    "keywords": "velo Metlaoui, VTT Tunisie, velo electrique Tunisie, Ben Chaaben BIKES, boutique velo Metlaoui"
+  },
+  "hero": {
+    "kicker": "Vitrine premium MTB / e-bike",
+    "titleLine1": "Vivez la passion.",
+    "titleLine2": "Roulez l'aventure.",
+    "subtitle": "Decouvrez une selection de velos haut de gamme, VTT et velos electriques, choisis pour la performance, la qualite et le plaisir de rouler.",
+    "ctaPrimary": "Decouvrir nos velos",
+    "ctaWhatsapp": "Nous contacter sur WhatsApp",
+    "imageAlt": "Velo en hero (placeholder)",
+    "cardTitle": "Ben Chaaben BIKES",
+    "cardSubtitle": "Metlaoui, Tunisie. Contact rapide WhatsApp.",
+    "benefits": {
+      "quality": "Qualite garantie",
+      "advice": "Meilleurs conseils",
+      "support": "Support dedie"
+    }
+  },
+  "categories": {
+    "title": "Nos categories",
+    "subtitle": "Choisissez votre univers : performance, assistance, vitesse ou equipements.",
+    "mtb": {
+      "title": "VTT",
+      "description": "Performance et robustesse pour tous les terrains."
+    },
+    "ebike": {
+      "title": "Velos electriques",
+      "description": "Assistance puissante pour aller plus loin."
+    },
+    "fullSuspension": {
+      "title": "Tout suspendu",
+      "description": "Confort et controle sur terrains exigeants."
+    },
+    "accessories": {
+      "title": "Accessoires",
+      "description": "Equipements utiles pour rouler en securite."
+    }
+  },
+  "bikes": {
+    "title": "Nos velos en vedette",
+    "subtitle": "Exemples de velos. Aucun prix n'est affiche : demandez les details sur WhatsApp.",
+    "cta": "Demander les details sur WhatsApp",
+    "whatsappMessage": "Bonjour, je suis interesse par le velo: {name}. Pouvez-vous me donner plus d'informations ?",
+    "items": {
+      "bike1": {
+        "name": "Velo 01",
+        "type": "",
+        "description": ""
+      },
+      "bike2": {
+        "name": "Velo 02",
+        "type": "",
+        "description": ""
+      },
+      "bike3": {
+        "name": "Velo 03",
+        "type": "",
+        "description": ""
+      },
+      "bike4": {
+        "name": "Velo 04",
+        "type": "",
+        "description": ""
+      }
+    },
+    "tags": {
+      "example": "Exemple"
+    }
+  },
+  "why": {
+    "title": "Pourquoi nous choisir",
+    "subtitle": "Une experience premium, simple et rapide pour trouver le bon velo.",
+    "items": {
+      "quality": {
+        "title": "Selection de qualite",
+        "description": "Modeles choisis pour la performance, la fiabilite et le plaisir."
+      },
+      "advice": {
+        "title": "Conseils personnalises",
+        "description": "On vous guide selon votre taille, usage et budget."
+      },
+      "brands": {
+        "title": "Grandes marques",
+        "description": "Des choix orientes qualite, confort et durabilite."
+      },
+      "afterSales": {
+        "title": "Service apres-vente",
+        "description": "Aide et suivi apres votre choix, selon disponibilite."
+      },
+      "availability": {
+        "title": "Prix selon disponibilite",
+        "description": "Les prix varient selon l'etat et la disponibilite des modeles."
+      },
+      "fastContact": {
+        "title": "Contact rapide",
+        "description": "WhatsApp et appel : reponse rapide, photos reelles sur demande."
+      }
+    }
+  },
+  "about": {
+    "title": "A propos de Ben Chaaben BIKES",
+    "subtitle": "Vitrine dediee aux passionnes de velo a Metlaoui.",
+    "cardTitle": "Notre approche",
+    "body": "Ben Chaaben BIKES est une vitrine dediee aux passionnes de velo a Metlaoui. Nous proposons une selection de velos, VTT, velos electriques et accessoires, avec un accompagnement personnalise pour aider chaque client a choisir le modele adapte a ses besoins.",
+    "bullets": {
+      "selection": "Selection orientee performance et qualite",
+      "guidance": "Accompagnement avant achat",
+      "afterSales": "Support et service apres-vente"
+    },
+    "stats": {
+      "followers": "Abonnes",
+      "experience": "Annee(s) d'experience",
+      "commitment": "Engagement qualite"
+    }
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Decouvrez quelques modeles disponibles et exemples de velos proposes.",
+    "items": {
+      "g1": "Photo velo 1 (placeholder)",
+      "g2": "Photo velo 2 (placeholder)",
+      "g3": "Photo velo 3 (placeholder)",
+      "g4": "Photo velo 4 (placeholder)",
+      "g5": "Photo velo 5 (placeholder)",
+      "g6": "Photo velo 6 (placeholder)"
+    }
+  },
+  "contactCta": {
+    "title": "Besoin d'un conseil ?",
+    "subtitle": "Contactez-nous directement sur WhatsApp pour connaitre les modeles disponibles, recevoir des photos reelles et obtenir plus de details.",
+    "actions": {
+      "whatsapp": "Discuter sur WhatsApp",
+      "call": "Appeler maintenant",
+      "maps": "Voir sur Google Maps"
+    },
+    "info": {
+      "title": "Infos contact"
+    }
+  },
+  "footer": {
+    "tagline": "Vitrine premium pour VTT, velos electriques, velos route et accessoires a Metlaoui.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "facebook": "Facebook (TODO)",
+    "rights": "tous droits réservés."
   }
 }
-

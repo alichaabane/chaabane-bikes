@@ -6,6 +6,10 @@ const isDev = process.env.NODE_ENV !== 'production'
 export default defineNuxtConfig({
   compatibilityDate: '2026-05-30',
   devtools: { enabled: true },
+  components: [
+    { path: '~/components', pathPrefix: false },
+    { path: '~/sections', pathPrefix: false }
+  ],
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxtjs/seo'],
   css: ['~/assets/css/tailwind.css'],
   postcss: {
@@ -23,21 +27,22 @@ export default defineNuxtConfig({
   },
   i18n: {
     strategy: 'prefix_except_default',
-    defaultLocale: 'en',
+    defaultLocale: 'fr',
     // Nuxt i18n v10 resolves paths relative to <rootDir>/i18n by default.
     // Keep our locale files in /locales while pointing i18n to them.
     langDir: '../locales',
     locales: [
-      { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
-      { code: 'fr', iso: 'fr-FR', name: 'Francais', file: 'fr.json' }
+      { code: 'fr', iso: 'fr-TN', name: 'Francais', file: 'fr.json' },
+      { code: 'ar', iso: 'ar-TN', name: 'Arabic', file: 'ar.json', dir: 'rtl' },
+      { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' }
     ],
     vueI18n: '../i18n.config.ts'
   },
   site: {
-    url: 'https://chaabanebikes.example',
-    name: 'Chaabane Bikes',
-    description: 'Bikes, parts, and service.',
-    defaultLocale: 'en'
+    url: 'https://benchaabenbikes.example',
+    name: 'Ben Chaaben BIKES',
+    description: 'Vitrine premium : VTT, velos electriques, velos route et accessoires a Metlaoui.',
+    defaultLocale: 'fr'
   },
   // nuxt-og-image (installed via @nuxtjs/seo). Disable runtime image generation to avoid unsigned URLs.
   ogImage: {

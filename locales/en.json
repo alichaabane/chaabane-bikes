@@ -1,12 +1,163 @@
 {
-  "brand": "Chaabane Bikes",
-  "nav": {
-    "home": "Home"
+  "brand": "Ben Chaaben BIKES",
+  "actions": {
+    "discover": "Discover",
+    "whatsapp": "WhatsApp"
   },
-  "home": {
-    "title": "Find your next ride",
-    "description": "Modern bikes, parts, and service.",
-    "cta": "Browse bikes"
+  "nav": {
+    "home": "Home",
+    "bikes": "Bikes",
+    "categories": "Categories",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "seo": {
+    "title": "Ben Chaaben BIKES | Bikes, MTB & e-bikes in Metlaoui",
+    "description": "Discover Ben Chaaben BIKES in Metlaoui, Tunisia: curated MTB, e-bikes, full suspension and accessories. Message us on WhatsApp for details.",
+    "keywords": "bike Metlaoui, MTB Tunisia, e-bike Tunisia, Ben Chaaben BIKES, bike shop Metlaoui"
+  },
+  "hero": {
+    "kicker": "Premium MTB / e-bike showcase",
+    "titleLine1": "Live the passion.",
+    "titleLine2": "Ride the adventure.",
+    "subtitle": "Discover a curated selection of premium bikes, MTB and e-bikes, chosen for performance, quality, and pure riding pleasure.",
+    "ctaPrimary": "Explore our bikes",
+    "ctaWhatsapp": "Contact us on WhatsApp",
+    "imageAlt": "Hero bike (placeholder)",
+    "cardTitle": "Ben Chaaben BIKES",
+    "cardSubtitle": "Metlaoui, Tunisia. Fast WhatsApp response.",
+    "benefits": {
+      "quality": "Quality guaranteed",
+      "advice": "Best advice",
+      "support": "Dedicated support"
+    }
+  },
+  "categories": {
+    "title": "Our categories",
+    "subtitle": "Pick your world: rugged trails, electric assist, speed, or gear.",
+    "mtb": {
+      "title": "MTB",
+      "description": "Performance and durability on every terrain."
+    },
+    "ebike": {
+      "title": "E-bikes",
+      "description": "Powerful assist to go further."
+    },
+    "fullSuspension": {
+      "title": "Full suspension",
+      "description": "Comfort and control on demanding terrain."
+    },
+    "accessories": {
+      "title": "Accessories",
+      "description": "Useful gear to ride safer."
+    }
+  },
+  "bikes": {
+    "title": "Featured bikes",
+    "subtitle": "Example bikes. No prices shown: ask for details on WhatsApp.",
+    "cta": "Ask for details on WhatsApp",
+    "whatsappMessage": "Hello, I'm interested in the bike: {name}. Could you share more information?",
+    "items": {
+      "bike1": {
+        "name": "Bike 01",
+        "type": "",
+        "description": ""
+      },
+      "bike2": {
+        "name": "Bike 02",
+        "type": "",
+        "description": ""
+      },
+      "bike3": {
+        "name": "Bike 03",
+        "type": "",
+        "description": ""
+      },
+      "bike4": {
+        "name": "Bike 04",
+        "type": "",
+        "description": ""
+      }
+    },
+    "tags": {
+      "example": "Example"
+    }
+  },
+  "why": {
+    "title": "Why choose us",
+    "subtitle": "A premium, simple experience to find the right ride.",
+    "items": {
+      "quality": {
+        "title": "Quality selection",
+        "description": "Models chosen for performance, reliability and fun."
+      },
+      "advice": {
+        "title": "Personal guidance",
+        "description": "We guide you by size, use case and budget."
+      },
+      "brands": {
+        "title": "Trusted brands",
+        "description": "Choices focused on quality, comfort and durability."
+      },
+      "afterSales": {
+        "title": "After-sales support",
+        "description": "Help and follow-up, depending on availability."
+      },
+      "availability": {
+        "title": "Prices vary",
+        "description": "Pricing depends on availability and bike condition."
+      },
+      "fastContact": {
+        "title": "Fast contact",
+        "description": "WhatsApp and calls: quick replies, real photos on request."
+      }
+    }
+  },
+  "about": {
+    "title": "About Ben Chaaben BIKES",
+    "subtitle": "A showcase for bike enthusiasts in Metlaoui.",
+    "cardTitle": "Our approach",
+    "body": "Ben Chaaben BIKES is a showcase dedicated to bike enthusiasts in Metlaoui. We offer a selection of bikes, MTB, e-bikes and accessories, with personalized guidance to help each customer choose the right model.",
+    "bullets": {
+      "selection": "Performance-focused selection",
+      "guidance": "Guidance before you choose",
+      "afterSales": "Support and after-sales service"
+    },
+    "stats": {
+      "followers": "Followers",
+      "experience": "Year(s) experience",
+      "commitment": "Quality commitment"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Discover a few available models and examples of bikes we offer.",
+    "items": {
+      "g1": "Bike photo 1 (placeholder)",
+      "g2": "Bike photo 2 (placeholder)",
+      "g3": "Bike photo 3 (placeholder)",
+      "g4": "Bike photo 4 (placeholder)",
+      "g5": "Bike photo 5 (placeholder)",
+      "g6": "Bike photo 6 (placeholder)"
+    }
+  },
+  "contactCta": {
+    "title": "Need advice?",
+    "subtitle": "Message us on WhatsApp to check availability, get real photos, and ask for more details.",
+    "actions": {
+      "whatsapp": "Chat on WhatsApp",
+      "call": "Call now",
+      "maps": "Open Google Maps"
+    },
+    "info": {
+      "title": "Contact info"
+    }
+  },
+  "footer": {
+    "tagline": "Premium showcase for MTB, e-bikes, road bikes and accessories in Metlaoui.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "facebook": "Facebook (TODO)",
+    "rights": "All rights reserved."
   }
 }
-

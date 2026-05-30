@@ -16,16 +16,20 @@ function bikeWhatsAppHref(bikeName: string) {
 <template>
   <section id="bikes" class="py-14 md:py-20">
     <AppContainer>
-      <SectionHeading :title="t('bikes.title')" :subtitle="t('bikes.subtitle')" />
+      <Reveal>
+        <SectionHeading :title="t('bikes.title')" :subtitle="t('bikes.subtitle')" />
+      </Reveal>
 
       <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <a
-          v-for="b in featuredBikes"
+        <Reveal
+          v-for="(b, idx) in featuredBikes"
           :key="b.id"
+          as="a"
           class="group overflow-hidden rounded-xl border border-white/10 bg-bcb-card/70 transition hover:border-bcb-green/30 hover:bg-bcb-card"
           :href="bikeWhatsAppHref(t(b.nameKey))"
           target="_blank"
           rel="noopener noreferrer"
+          :delay-ms="80 * idx"
         >
           <div class="relative aspect-[16/11]">
             <div class="absolute inset-0 bg-gradient-to-tr from-black/75 via-black/10 to-bcb-green/10" aria-hidden="true" />
@@ -60,7 +64,7 @@ function bikeWhatsAppHref(bikeName: string) {
               </AppButton>
             </div>
           </div>
-        </a>
+        </Reveal>
       </div>
     </AppContainer>
   </section>

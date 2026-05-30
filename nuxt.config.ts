@@ -28,6 +28,8 @@ export default defineNuxtConfig({
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'fr',
+    // Force default language to French (do not auto-detect browser language).
+    detectBrowserLanguage: false,
     // Nuxt i18n v10 resolves paths relative to <rootDir>/i18n by default.
     // Keep our locale files in /locales while pointing i18n to them.
     langDir: '../locales',

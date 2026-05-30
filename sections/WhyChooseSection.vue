@@ -23,13 +23,16 @@ function iconPath(icon: string) {
 <template>
   <section class="border-y border-white/5 bg-bcb-bg-2/40 py-14 md:py-20">
     <AppContainer>
-      <SectionHeading :title="t('why.title')" :subtitle="t('why.subtitle')" />
+      <Reveal>
+        <SectionHeading :title="t('why.title')" :subtitle="t('why.subtitle')" />
+      </Reveal>
 
       <div class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <div
-          v-for="item in values"
+        <Reveal
+          v-for="(item, idx) in values"
           :key="item.titleKey"
           class="rounded-xl border border-white/10 bg-bcb-card/70 p-5 transition hover:border-bcb-green/30 hover:bg-bcb-card"
+          :delay-ms="70 * idx"
         >
           <div class="flex items-start gap-4">
             <div class="grid size-11 place-items-center rounded-xl bg-white/5 text-bcb-green">
@@ -42,9 +45,8 @@ function iconPath(icon: string) {
               <div class="mt-1 text-sm text-slate-300/90">{{ t(item.descriptionKey) }}</div>
             </div>
           </div>
-        </div>
+        </Reveal>
       </div>
     </AppContainer>
   </section>
 </template>
-

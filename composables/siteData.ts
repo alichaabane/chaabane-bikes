@@ -36,7 +36,7 @@ export type GalleryItem = {
 }
 
 export const CONTACT = {
-  addressLine: 'City Ezzouhoure 2, Metlaoui, Tunisia',
+  addressLine: 'City Ezzouhour 2, Metlaoui, Tunisia',
   phoneE164: '+21628998215',
   phoneDisplay: '+216 28 998 215',
   // TODO: confirm and replace if Google Maps URL changes.

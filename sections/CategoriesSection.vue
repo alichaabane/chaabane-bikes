@@ -6,13 +6,17 @@ const { categories } = useSiteData()
 <template>
   <section id="categories" class="border-t border-white/5 bg-bcb-bg-2/40 py-14 md:py-20">
     <AppContainer>
-      <SectionHeading :title="t('categories.title')" :subtitle="t('categories.subtitle')" />
+      <Reveal>
+        <SectionHeading :title="t('categories.title')" :subtitle="t('categories.subtitle')" />
+      </Reveal>
 
       <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <a
-          v-for="c in categories"
+        <Reveal
+          v-for="(c, idx) in categories"
           :key="c.id"
+          as="a"
           :href="c.anchor"
+          :delay-ms="80 * idx"
           class="group overflow-hidden rounded-xl border border-white/10 bg-bcb-card/70 transition hover:border-bcb-green/30 hover:bg-bcb-card"
         >
           <div class="relative aspect-[16/10]">
@@ -42,9 +46,8 @@ const { categories } = useSiteData()
               </svg>
             </div>
           </div>
-        </a>
+        </Reveal>
       </div>
     </AppContainer>
   </section>
 </template>
-

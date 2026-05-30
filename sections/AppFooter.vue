@@ -14,6 +14,7 @@ const nav = computed(() => [
 const whatsappHref = `https://wa.me/${CONTACT.phoneE164.replace('+', '')}`
 const phoneHref = `tel:${CONTACT.phoneE164}`
 const facebookHref = 'https://www.facebook.com/profile.php?id=100086169843001'
+const linkedinHref = 'https://www.linkedin.com/in/ali-chaabane/'
 </script>
 
 <template>
@@ -84,7 +85,21 @@ const facebookHref = 'https://www.facebook.com/profile.php?id=100086169843001'
 
       <div class="mt-10 flex flex-col gap-2 border-t border-white/5 pt-6 text-xs text-slate-400 md:flex-row md:items-center md:justify-between">
         <div>© {{ new Date().getFullYear() }} Ben Chaaben BIKES</div>
-        <div>{{ t('footer.rights') }}</div>
+        <div class="flex flex-wrap items-center gap-2">
+          <span>{{ t('footer.rights') }}</span>
+          <span class="text-white/20">|</span>
+          <span>
+            {{ t('footer.developedBy') }}
+            <a
+              :href="linkedinHref"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-medium text-slate-200 hover:text-white"
+            >
+              Ali Chaabane
+            </a>
+          </span>
+        </div>
       </div>
     </AppContainer>
   </footer>

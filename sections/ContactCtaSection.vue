@@ -58,7 +58,6 @@ const whatsappHref = `https://wa.me/${CONTACT.phoneE164.replace('+', '')}`
             </div>
           </div>
         </div>
-      </div>
       </Reveal>
     </AppContainer>
   </section>

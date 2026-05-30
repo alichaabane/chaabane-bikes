@@ -6,6 +6,16 @@ const isDev = process.env.NODE_ENV !== 'production'
 export default defineNuxtConfig({
   compatibilityDate: '2026-05-30',
   devtools: { enabled: true },
+  app: {
+    head: {
+      meta: [
+        {
+          name: 'google-site-verification',
+          content: 'VtdECKbI4oR4k0PDoile1ilp4MYF-GGgkl906XI0GMA'
+        }
+      ]
+    }
+  },
   components: [
     { path: '~/components', pathPrefix: false },
     { path: '~/sections', pathPrefix: false }

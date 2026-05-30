@@ -40,7 +40,7 @@ export const CONTACT = {
   phoneE164: '+21628998215',
   phoneDisplay: '+216 28 998 215',
   // TODO: confirm and replace if Google Maps URL changes.
-  mapsUrl: 'https://maps.app.goo.gl/4z4HFomH2N6e7JfB7'
+  mapsUrl: 'https://share.google/81oNQLQOHszIH74Zl'
 } as const
 
 export const IMAGES = {

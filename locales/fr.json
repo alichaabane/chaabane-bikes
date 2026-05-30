@@ -153,6 +153,12 @@
       "title": "Infos contact"
     }
   },
+  "map": {
+    "title": "Nous trouver",
+    "subtitle": "Ouvrez Google Maps ou consultez l'emplacement directement ici.",
+    "open": "Ouvrir sur Maps",
+    "iframeTitle": "Emplacement Ben Chaaben BIKES"
+  },
   "footer": {
     "tagline": "Vitrine premium pour VTT, vélos électriques, tout suspendu et accessoires à Metlaoui.",
     "navigation": "Navigation",

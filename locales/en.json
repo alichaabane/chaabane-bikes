@@ -153,6 +153,12 @@
       "title": "Contact info"
     }
   },
+  "map": {
+    "title": "Find us",
+    "subtitle": "Open Google Maps or view the location directly here.",
+    "open": "Open in Maps",
+    "iframeTitle": "Ben Chaaben BIKES location"
+  },
   "footer": {
     "tagline": "Premium showcase for MTB, e-bikes, road bikes and accessories in Metlaoui.",
     "navigation": "Navigation",

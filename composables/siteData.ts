@@ -36,12 +36,18 @@ export type GalleryItem = {
 }
 
 export const CONTACT = {
-  addressLine: 'City Ezzouhour 2, Metlaoui, Tunisia',
+  addressLine: 'Cite Ezzohour 2, Metlaoui, Tunisia',
   phoneE164: '+21628998215',
   phoneDisplay: '+216 28 998 215',
   // TODO: confirm and replace if Google Maps URL changes.
   mapsUrl: 'https://share.google/81oNQLQOHszIH74Zl'
 } as const
+
+export function getMapsEmbedSrc() {
+  // Uses a simple public embed query by address. Replace with a dedicated Google Maps embed URL if needed.
+  const query = `Ben Chaaben BIKES, ${CONTACT.addressLine}`
+  return `https://www.google.com/maps?q=${encodeURIComponent(query)}&output=embed`
+}
 
 export const IMAGES = {
   hero: '/images/hero-bike.jpg',

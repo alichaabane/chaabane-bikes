@@ -28,6 +28,7 @@ useSeoMeta({
       <WhyChooseSection />
       <AboutSection />
       <ContactCtaSection />
+      <MapSection />
     </main>
     <AppFooter />
   </div>

@@ -19,7 +19,7 @@ const whatsappHref = computed(() => `https://wa.me/${CONTACT.phoneE164.replace('
 
     <AppContainer>
       <div class="grid gap-10 py-12 md:grid-cols-2 md:items-center md:py-20">
-        <div :class="dir === 'rtl' ? 'text-right' : 'text-left'">
+        <div class="order-2 md:order-1" :class="dir === 'rtl' ? 'text-right' : 'text-left'">
           <p class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">
             <span class="size-1.5 rounded-full bg-bcb-green" aria-hidden="true" />
             {{ t('hero.kicker') }}
@@ -72,7 +72,7 @@ const whatsappHref = computed(() => `https://wa.me/${CONTACT.phoneE164.replace('
           </div>
         </div>
 
-        <div class="relative">
+        <div class="relative order-1 md:order-2">
           <div class="absolute -inset-6 rounded-[28px] bg-bcb-green/10 blur-2xl" aria-hidden="true" />
           <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-bcb-card shadow-glow">
             <div class="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-bcb-green/10" aria-hidden="true" />
@@ -95,4 +95,3 @@ const whatsappHref = computed(() => `https://wa.me/${CONTACT.phoneE164.replace('
     </AppContainer>
   </section>
 </template>
-

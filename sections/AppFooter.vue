@@ -15,6 +15,7 @@ const whatsappHref = `https://wa.me/${CONTACT.phoneE164.replace('+', '')}`
 const phoneHref = `tel:${CONTACT.phoneE164}`
 const facebookHref = 'https://www.facebook.com/profile.php?id=100086169843001'
 const linkedinHref = 'https://www.linkedin.com/in/ali-chaabane/'
+const sitemapHref = '/sitemap.xml'
 </script>
 
 <template>
@@ -33,6 +34,9 @@ const linkedinHref = 'https://www.linkedin.com/in/ali-chaabane/'
           <div class="mt-3 grid gap-2">
             <a v-for="i in nav" :key="i.href" :href="i.href" class="text-sm text-slate-300 hover:text-white">
               {{ i.label }}
+            </a>
+            <a :href="sitemapHref" target="_blank" rel="noopener noreferrer" class="text-sm text-slate-300 hover:text-white">
+              {{ t('footer.sitemap') }}
             </a>
           </div>
         </div>
